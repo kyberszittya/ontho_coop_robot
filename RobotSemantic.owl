@@ -1,0 +1,725 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/john/ontologies/2018/3/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/john/ontologies/2018/3/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isCargoOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRobot -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRobot">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRobotOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRoomOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWare -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWare">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isWareOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#inRoom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#inRoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isCargoOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isCargoOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRobotOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRobotOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRoomOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRoomOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isShelfOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isShelfOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#shelvedOn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isWareOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isWareOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#modifier_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#modifier_property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#shelvedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#shelvedOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#relational_property"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasConcentration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasConcentration">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasManufacturer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasManufacturer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasModel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasModel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasPackaging -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasPackaging">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasQuantity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasQuantity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasTopSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasTopSpeed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWeight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Barrel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Barrel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Box"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Blunt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Blunt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Box -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Box">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#shelvedOn"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Obstacle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Corridor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Corridor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Edged -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Edged">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasModel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Explosive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Explosive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Solvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasID"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Mechanical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Mechanical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Metal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Metal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#MobilePhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#MobilePhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#inRoom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Obstacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Obstacle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Other -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Other">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Obstacle"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Plastic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Plastic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Powered -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Powered">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasModel"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRobotOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasTopSpeed"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isRoomOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Obstacle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isShelfOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Solvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Solvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasConcentration"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#TV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#TV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Value -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Value">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRoom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRobot"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasRoom"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Independent_entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isCargoOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Container"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isWareOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasManufacturer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasWeight"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Blunt"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Edged"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Mechanical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Powered"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Materials"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Tools"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Metal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Plastic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wood"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#MobilePhone"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#PC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#TV"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Robot"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Room"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Warehouse"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Wares"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
