@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ASCII'?>
+<sdf version="1.5">
+  <model name="container_mobilephone">
+    <link name="link_container_mobilephone">
+      <inertial>
+        <mass>10.0</mass>
+      </inertial>
+      <collision name="coll">
+        <geometry>
+          <mesh>
+            <uri>model://container_mobilephone/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="viz">
+        <geometry>
+          <mesh>
+            <uri>model://container_mobilephone/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

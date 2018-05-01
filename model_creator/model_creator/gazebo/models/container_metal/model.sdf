@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ASCII'?>
+<sdf version="1.5">
+  <model name="container_metal">
+    <link name="link_container_metal">
+      <inertial>
+        <mass>10.0</mass>
+      </inertial>
+      <collision name="coll">
+        <geometry>
+          <mesh>
+            <uri>model://container_metal/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="viz">
+        <geometry>
+          <mesh>
+            <uri>model://container_metal/meshes/model.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
