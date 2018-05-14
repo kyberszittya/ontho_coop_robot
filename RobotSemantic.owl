@@ -177,6 +177,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Length">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Manufacturer -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Manufacturer">
@@ -230,6 +238,14 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Weight">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Width">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -548,6 +564,20 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Object"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Length"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Width"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
