@@ -352,6 +352,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#DangerousRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#DangerousRoom">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isStoreOf"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isShelfOf"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Barrel"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Explosive"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:onClass>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#StorageRoom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Domain_entity"/>
@@ -386,6 +426,36 @@
     <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Explosive">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Chemicals"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Solvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#FragileShelf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#FragileShelf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#isShelfOf"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                        <owl:onClass>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Box"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#hasCargo"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Electronics"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:onClass>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/john/ontologies/2018/3/robot-warehouse#Shelf"/>
     </owl:Class>
     
 
