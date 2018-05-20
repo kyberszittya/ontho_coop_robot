@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitorconfiguration:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:monitorconfiguration="http://www.inf.mit.bme.hu/testing/monitorconfiguration" name="default_config">
+  <simulator>
+    <properties geomError="1.0E-5"/>
+  </simulator>
+  <datacollectorsettings sampleTime="0.5"/>
+  <network>
+    <accesspointsettings xsi:type="monitorconfiguration:WAMPRouterSettings" ip_address="192.168.1.74" port="8081" rawsocketport="8080"/>
+  </network>
+  <monitoringsettings>
+    <filtersetting enabled="true" name="CloseToObject"/>
+    <filtersetting enabled="true" name="CollisionWithObject"/>
+    <filtersetting enabled="true" name="FarFromObject"/>
+    <filtersetting enabled="true" name="FarFromObjectMin"/>
+    <filtersetting enabled="true" name="CollisionWithObjectMin"/>
+    <filtersetting enabled="true" name="CloseToObjectMin"/>
+    <filtersetting enabled="true" name="UpOfObject"/>
+    <filtersetting enabled="true" name="DownOfObject"/>
+    <filtersetting enabled="true" name="FrontOfObject"/>
+    <filtersetting enabled="true" name="BackOfObject"/>
+    <filtersetting enabled="true" name="RightOfObject"/>
+    <filtersetting enabled="true" name="LeftOfObject"/>
+  </monitoringsettings>
+</monitorconfiguration:Configuration>
