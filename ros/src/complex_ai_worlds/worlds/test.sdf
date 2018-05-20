@@ -1,0 +1,3966 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<sdf version="1.5">
+  <world name="complexai">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="floor_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 0.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_1_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_1_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 1.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 0.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_0_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_2_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_2_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 2.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_3_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_3_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 3.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_4_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_4_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 4.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_5_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_5_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 5.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_6_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_6_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 6.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_7_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_7_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 7.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_8_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_8_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 8.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_0_9_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_0_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_left_0_9_Berlin_Storage_StorageRoom_1">
+      <pose>-0.5 9.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_left_0_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_left_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_left_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_0_9_Berlin_Storage_StorageRoom_1">
+      <pose>0.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_0_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_0_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_9_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_1_9_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_1_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_1_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_1_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_9_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_2_9_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_2_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_2_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_2_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_8_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_7_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_6_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_5_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_4_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_3_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_2_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_1_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_2_0_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_2_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_2_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_2_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_2_0_Berlin_Storage_StorageRoom_1">
+      <pose>2.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_2_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_2_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_2_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_0_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_3_0_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_3_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_3_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_3_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_0_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_4_0_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_4_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_4_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_4_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_1_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_2_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_3_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_4_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_5_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_6_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_7_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_8_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_4_9_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_4_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_4_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_4_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_4_9_Berlin_Storage_StorageRoom_1">
+      <pose>4.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_4_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_4_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_4_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_9_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_5_9_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_5_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_5_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_5_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_9_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_6_9_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_6_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_6_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_6_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_8_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_7_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_6_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_5_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_4_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_3_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_2_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_1_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_6_0_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_6_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_6_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_6_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_6_0_Berlin_Storage_StorageRoom_1">
+      <pose>6.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_6_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_6_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_6_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_0_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_7_0_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_7_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_7_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_7_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_0_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_8_0_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_8_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_8_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_8_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_1_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_2_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_3_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_4_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_5_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_6_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_7_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_8_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_8_9_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_8_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_8_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_8_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_8_9_Berlin_Storage_StorageRoom_1">
+      <pose>8.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_8_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_8_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_8_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_9_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_9_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 9.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_9_9_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_9_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_9_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_8_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_8_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 8.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_7_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_7_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 7.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_6_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_6_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 6.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_5_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_5_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 5.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_4_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_4_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 4.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_3_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_3_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 3.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_2_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_2_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 2.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_1_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_1_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 1.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_9_0_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_9_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_right_9_0_Berlin_Storage_StorageRoom_1">
+      <pose>9.5 0.0 0.5 0.0 0.0 1.5707963</pose>
+      <static>true</static>
+      <link name="link_wall_right_9_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_right_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_right_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_9_0_Berlin_Storage_StorageRoom_1">
+      <pose>9.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_9_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_9_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_1_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_2_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_3_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_4_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_5_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_6_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_7_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_8_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_7_9_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_7_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_7_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_7_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_7_9_Berlin_Storage_StorageRoom_1">
+      <pose>7.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_7_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_7_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_7_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_8_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_7_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_6_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_5_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_4_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_3_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_2_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_1_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_5_0_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_5_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_5_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_5_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_5_0_Berlin_Storage_StorageRoom_1">
+      <pose>5.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_5_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_5_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_5_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_1_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_2_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_3_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_4_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_5_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_6_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_7_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_8_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_3_9_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 9.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_3_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_3_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_3_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_top_3_9_Berlin_Storage_StorageRoom_1">
+      <pose>3.0 9.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_top_3_9_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_top_3_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_top_3_9_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_8_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 8.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_8_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_8_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_7_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 7.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_7_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_7_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_0">
+      <pose>0.0 6.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_0</name>
+      <static>false</static>
+      <uri>model://container_Oak</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_1">
+      <pose>0.5 6.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_1</name>
+      <static>false</static>
+      <uri>model://container_CarJack</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_2">
+      <pose>1.0 6.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_2</name>
+      <static>false</static>
+      <uri>model://container_Polypropylene</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_3">
+      <pose>1.5 6.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_3</name>
+      <static>false</static>
+      <uri>model://container_Polypropylene</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_4">
+      <pose>2.0 6.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_4</name>
+      <static>false</static>
+      <uri>model://container_Polypropylene</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_5">
+      <pose>0.0 7.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_5</name>
+      <static>false</static>
+      <uri>model://container_AluminumSheet</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_6">
+      <pose>0.5 7.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_6</name>
+      <static>false</static>
+      <uri>model://container_AsusPC5592</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_7">
+      <pose>1.0 7.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_7</name>
+      <static>false</static>
+      <uri>model://container_PowerDrill</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_8">
+      <pose>1.5 7.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_8</name>
+      <static>false</static>
+      <uri>model://container_DellPC67DC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_4_Box_9">
+      <pose>2.0 7.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_4_Box_9</name>
+      <static>false</static>
+      <uri>model://container_DellPC11RG</uri>
+    </include>
+    <model name="floor_1_6_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 6.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_6_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_6_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_5_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 5.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_5_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_5_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Box_0">
+      <pose>0.0 4.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Box_0</name>
+      <static>false</static>
+      <uri>model://container_Hammer</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_1">
+      <pose>0.5 4.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_1</name>
+      <static>false</static>
+      <uri>model://container_NitroglycerinHC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_2">
+      <pose>1.0 4.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_2</name>
+      <static>false</static>
+      <uri>model://container_NitroglycerinLC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_3">
+      <pose>1.5 4.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_3</name>
+      <static>false</static>
+      <uri>model://container_BenzeneLC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Box_4">
+      <pose>2.0 4.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Box_4</name>
+      <static>false</static>
+      <uri>model://container_Acrylic</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_5">
+      <pose>0.0 5.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_5</name>
+      <static>false</static>
+      <uri>model://container_BenzeneHC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Box_6">
+      <pose>0.5 5.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Box_6</name>
+      <static>false</static>
+      <uri>model://container_edged2</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Box_7">
+      <pose>1.0 5.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Box_7</name>
+      <static>false</static>
+      <uri>model://container_SamsungPhoneGA3</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_8">
+      <pose>1.5 5.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Barrel_8</name>
+      <static>false</static>
+      <uri>model://container_TolueneHC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_3_Box_9">
+      <pose>2.0 5.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_3_Box_9</name>
+      <static>false</static>
+      <uri>model://container_Oak</uri>
+    </include>
+    <model name="floor_1_4_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 4.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_4_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_4_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_3_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 3.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_3_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_3_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_0">
+      <pose>0.0 2.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_0</name>
+      <static>false</static>
+      <uri>model://container_Acrylic</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_1">
+      <pose>0.5 2.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_1</name>
+      <static>false</static>
+      <uri>model://container_NokiaPhoneS9</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_2">
+      <pose>1.0 2.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_2</name>
+      <static>false</static>
+      <uri>model://container_AsusPC3483</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_3">
+      <pose>1.5 2.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_3</name>
+      <static>false</static>
+      <uri>model://container_Hammer</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_4">
+      <pose>2.0 2.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_4</name>
+      <static>false</static>
+      <uri>model://container_Hammer</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_5">
+      <pose>0.0 3.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_5</name>
+      <static>false</static>
+      <uri>model://container_NokiaPhoneR5</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Barrel_6">
+      <pose>0.5 3.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Barrel_6</name>
+      <static>false</static>
+      <uri>model://container_BenzeneHC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_7">
+      <pose>1.0 3.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_7</name>
+      <static>false</static>
+      <uri>model://container_SamsungPhoneGA3</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_8">
+      <pose>1.5 3.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_8</name>
+      <static>false</static>
+      <uri>model://container_Acrylic</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_2_Box_9">
+      <pose>2.0 3.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_2_Box_9</name>
+      <static>false</static>
+      <uri>model://container_Polypropylene</uri>
+    </include>
+    <model name="floor_1_2_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 2.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_2_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_2_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="floor_1_1_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 1.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_1_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_1_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_0">
+      <pose>0.0 0.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_0</name>
+      <static>false</static>
+      <uri>model://container_Oak</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_1">
+      <pose>0.5 0.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_1</name>
+      <static>false</static>
+      <uri>model://container_SamsungPhoneGA1</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_2">
+      <pose>1.0 0.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_2</name>
+      <static>false</static>
+      <uri>model://container_Acrylic</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_3">
+      <pose>1.5 0.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_3</name>
+      <static>false</static>
+      <uri>model://container_HydrogenPeroxideLC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_4">
+      <pose>2.0 0.75 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_4</name>
+      <static>false</static>
+      <uri>model://container_Chisel</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_5">
+      <pose>0.0 1.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_5</name>
+      <static>false</static>
+      <uri>model://container_Polypropylene</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_6">
+      <pose>0.5 1.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_6</name>
+      <static>false</static>
+      <uri>model://container_Chisel</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_7">
+      <pose>1.0 1.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_7</name>
+      <static>false</static>
+      <uri>model://container_HydrogenPeroxideHC</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Box_8">
+      <pose>1.5 1.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Box_8</name>
+      <static>false</static>
+      <uri>model://container_PowerDrill</uri>
+    </include>
+    <include name="Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_9">
+      <pose>2.0 1.25 0.5 0.0 0.0 0.0</pose>
+      <name>Berlin_Storage_StorageRoom_1_Shelf_1_Barrel_9</name>
+      <static>false</static>
+      <uri>model://container_NitroglycerinLC</uri>
+    </include>
+    <model name="floor_1_0_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_floor_1_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionfloor_1_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualfloor_1_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 1.0 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/WoodFloor</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+    <model name="wall_bottom_1_0_Berlin_Storage_StorageRoom_1">
+      <pose>1.0 -0.5 0.5 0.0 0.0 0.0</pose>
+      <static>true</static>
+      <link name="link_wall_bottom_1_0_Berlin_Storage_StorageRoom_1">
+        <collision name="collisionwall_bottom_1_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visualwall_bottom_1_0_Berlin_Storage_StorageRoom_1">
+          <geometry>
+            <box>
+              <size>1.0 0.01 1.0</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

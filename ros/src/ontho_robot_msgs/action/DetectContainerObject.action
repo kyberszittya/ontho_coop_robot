@@ -1,0 +1,5 @@
+geometry_msgs/Pose goal
+---
+string detected_label
+---
+geometry_msgs/Pose current_pose
